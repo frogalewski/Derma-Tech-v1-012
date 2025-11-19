@@ -1,0 +1,25 @@
+{
+  "name": "Dermatológica | Farmácia de Manipulação",
+  "short_name": "Dermatológica",
+  "description": "Um aplicativo que utiliza a API Gemini para sugerir fórmulas manipuladas com base em uma condição ou doença informada.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#111827",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

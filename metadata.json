@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Dermatológica®",
+  "description": "Um aplicativo que utiliza a API Gemini para sugerir fórmulas manipuladas com base em uma condição ou doença informada, utilizando o Google Search para informações atualizadas.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
