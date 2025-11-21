@@ -425,7 +425,7 @@ const App: React.FC = () => {
             };
             setResponse(parsedResponse);
             
-            generateAndSetIcons(parsedResponse.formulas);
+            // generateAndSetIcons(parsedResponse.formulas);
 
             const newItem: HistoryItem = {
                 id: Date.now().toString(),
@@ -469,7 +469,7 @@ const App: React.FC = () => {
         } finally {
             setIsLoading(false);
         }
-    }, [disease, doctorName, patientName, observations, considerProducts, products, currentIngredients, isLactoseIntolerant, isAllergicToDye, treatmentType, generateAndSetIcons, addToast, t, language, activeTab]);
+    }, [disease, doctorName, patientName, observations, considerProducts, products, currentIngredients, isLactoseIntolerant, isAllergicToDye, treatmentType, addToast, t, language, activeTab]);
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
@@ -492,7 +492,7 @@ const App: React.FC = () => {
         setSelectedHistoryItemId(item.id);
         setCurrentTimestamp(item.timestamp);
         setIsLoading(false);
-        generateAndSetIcons(item.response.formulas);
+        // generateAndSetIcons(item.response.formulas);
         setActiveTab('history');
         setIsSidebarOpen(false);
     };
